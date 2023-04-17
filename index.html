@@ -24,7 +24,30 @@
     <br><br>
     <span>o resultado é: </span><span id="resultado"> </span>
 
-    
+<script>
+
+
+var num1 = document.getElementById("num1");
+        var num2 = document.getElementById("num2");
+        var resultado = document.getElementById("resultado");
+
+        function somar() {
+            resultado.innerHTML = parseInt(num1.value) + parseInt(num2.value);
+        }
+
+        function subtrair() {
+            resultado.innerHTML = parseInt(num1.value) - parseInt(num2.value);
+        }
+
+        function dividir() {
+            resultado.innerHTML = parseInt(num1.value) / parseInt(num2.value);
+        }
+
+        function multiplicar() {
+            resultado.innerHTML = parseInt(num1.value) * parseInt(num2.value);
+        }
+
+</script>
 </body>
 
 </html>
