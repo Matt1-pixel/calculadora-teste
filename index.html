@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora teste</title>
+</head>
+
+<body>
+    <h1>Calculadora</h1>
+    <h3>De numeros inteiros</h3>
+    <label for="num1">Primeiro numero:</label><br>
+    <input type="number" id="num1">
+    <br><br>
+    <label for="num2">Segundo Numero:</label><br>
+    <input type="number" id="num2">
+    <br><br>
+    <button onclick="somar()">somar</button>
+    <button onclick="subtrair()">subtrair</button>
+    <button onclick="dividir()">dividir</button>
+    <button onclick="multiplicar()">multiplicar</button>
+    <br><br>
+    <span>o resultado é: </span><span id="resultado"> </span>
+
+
+
+    <script>
+        var num1 = document.getElementById("num1");
+        var num2 = document.getElementById("num2");
+        var resultado = document.getElementById("resultado");
+
+        function somar() {
+            resultado.innerHTML = parseInt(num1.value) + parseInt(num2.value);
+        }
+
+        function subtrair() {
+            resultado.innerHTML = parseInt(num1.value) - parseInt(num2.value);
+        }
+
+        function dividir() {
+            resultado.innerHTML = parseInt(num1.value) / parseInt(num2.value);
+        }
+
+        function multiplicar() {
+            resultado.innerHTML = parseInt(num1.value) * parseInt(num2.value);
+        }
+
+    </script>
+</body>
+
+</html>
