@@ -1,0 +1,53 @@
+body {
+    font-family: 'Fixedsys Excelsior 3.01', sans-serif;
+    background-color: black;
+    width: 100%;
+    margin: 0;
+    text-align: center;
+    overflow: hidden;
+}
+h1, h3, label, span, button {
+    color: green;
+}
+input {
+    background-color: rgba(0, 0, 0, 0.8);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-color: green;
+    color: green;
+    
+}
+input[type=number]::-webkit-inner-spin-button { 
+    -webkit-appearance: none;
+}
+button:active{
+    background-color: green;
+    color:black;
+}
+:focus {
+    outline: 0;
+}
+button {
+    font-family: 'Fixedsys Excelsior 3.01', sans-serif;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-color:green;
+    border-style:outset;
+    margin: 3px;
+}
+.buttons{
+    margin-top: 3vh;
+    margin-bottom: 3vh; 
+}
+
+.container2 {
+
+    margin: 5vh auto ;
+    padding: 2vh 2vw;
+    max-width: 500px;
+    border: green 1px solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

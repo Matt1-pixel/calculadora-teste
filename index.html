@@ -5,10 +5,33 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css" class="styles">
+
+    <link href="https://fonts.cdnfonts.com/css/fixedsys-excelsior-301" rel="stylesheet">
+
     <title>Calculadora teste</title>
 </head>
 
 <body>
+
+    <div class="container">
+        <div class="container2">
+            <h1>Calculadora</h1>
+            <h3>De numeros inteiros</h3>
+            <label for="num1">Primeiro numero:</label><br>
+            <input type="number" id="num1">
+            <br><br>
+            <label for="num2">Segundo Numero:</label><br>
+            <input type="number" id="num2">
+            <div class="buttons">
+                <button onclick=somar()>somar</button>
+                <button onclick=subtrair()>subtrair</button>
+                <button onclick=dividir()>dividir</button>
+                <button onclick=multiplicar()>multiplicar</button>
+            </div>
+            <span>o resultado é: </span><span id="resultado"> </span>
+        </div>
+    </div>
     <h1>Calculadora</h1>
     <h3>De numeros inteiros</h3>
     <label for="num1">Primeiro numero:</label><br>
