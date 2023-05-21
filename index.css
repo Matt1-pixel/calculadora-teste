@@ -16,10 +16,11 @@ input {
     border-right: none;
     border-color: green;
     color: green;
-    
+    font-family: 'Fixedsys Excelsior 3.01', sans-serif;
 }
 input[type=number]::-webkit-inner-spin-button { 
     -webkit-appearance: none;
+font-family: 'Fixedsys Excelsior 3.01', sans-serif;
 }
 button:active{
     background-color: green;
